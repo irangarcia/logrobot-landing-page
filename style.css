@@ -591,17 +591,17 @@ footer {
 	nav ul a:first-child {display: none;}
 	.minuscula {display: none;}
 	.menu-mobile{display:inline-block; position: absolute; top: 2rem; right: 1.2rem; color: #e88731}
-    .main-nav {display: none;}
-    .main-nav {width: 100%; text-align: center; margin-left: 0;margin-top: 2rem;}
-    .main-nav li {display: block;}
-    .main-nav li a:link,
+	.main-nav {display: none;}
+	.main-nav {width: 100%; text-align: center; margin-left: 0;margin-top: 2rem;}
+	.main-nav li {display: block;}
+	.main-nav li a:link,
 	.main-nav li a:visited {display: block; border: 0;padding: 10px 0;font-size: 100%;}
 	.main-nav li:last-child{display: none;}
 	.hero-area {display:flex; flex-direction: column-reverse;padding: 0;}
 	.hero-area h1 {line-height: 3rem;font-size: 2.8rem;}
-	.hero-area h2 {margin-top: 1rem; font-size: 1.4rem;}
+	.hero-area h2 {margin-top: 1rem; font-size: 1.3rem;}
 	.hero-area img {width: 85%;margin: 0 auto;margin-top: 3rem;}
-	.hero-area-text{margin: 0 auto;text-align: center}
+	.hero-area-text{margin: 0 auto;}
 	.button:link,.button:visited {display:block;width: 100%;text-align: center; margin:auto;}
 	.button-secondary,.button-secondary:visited {display:block;width: 100%;text-align: center; margin: 0.8rem auto 8rem auto; }
 	.features{margin: 4.3rem 1rem -9rem 1rem;}
