@@ -482,6 +482,11 @@ textarea {
     width: 100%;
 }
 
+.input-area:focus,
+textarea:focus {
+	border: 2px solid var(--orange-primary);
+}
+
 .btn-contact {
 	background-color: var(--orange-primary);
 	border: transparent;
@@ -494,6 +499,10 @@ textarea {
 	padding: 16px 28px;
 	width: 100%;
 	-webkit-appearance: none;
+}
+
+.btn-contact:focus {
+	outline: 0;
 }
 
 .btn-contact:hover{
@@ -589,7 +598,7 @@ footer {
 	.logo-mobile{display: inline; height: 70px; margin:1.3rem 0rem 0 0.3rem;}
 	nav{padding: 0;}
 	nav ul a:first-child {display: none;}
-	.minuscula {display: none;}
+	.minuscula {margin: 2rem auto}
 	.menu-mobile{display:inline-block; position: absolute; top: 2rem; right: 1.2rem; color: #e88731}
 	.main-nav {display: none;}
 	.main-nav {width: 100%; text-align: center; margin-left: 0;margin-top: 2rem;}
@@ -614,7 +623,7 @@ footer {
 	.columns2 {grid-template-columns: none; height: fit-content; width: 85%;margin: 0 auto;}
 	.cta-first:link,.cta-first:active{margin-bottom: 2rem;}
 	.contact-section{margin: 5rem 0rem 1rem 0rem}
-	.contact-text{padding-top: 0;}
+	.contact-text{padding-top: 0; margin: 0 auto 3rem auto;}
 	.contact-text h1 {font-size: 2.4rem;}
 	.contact-text p {font-size: 1.1rem;}
 	form {margin: 0;}
