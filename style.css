@@ -315,7 +315,7 @@ iframe {
 	clip-path: polygon(0 28%, 100% 0, 100% 100%, 0 100%);
 	color: var(--white);
 	margin: 0 auto;
-	padding:13rem 10.5rem 6rem 10.5rem;
+	padding:13rem 16rem 6rem 16rem;
 	text-align: center;
 }
 
@@ -325,7 +325,7 @@ iframe {
 
 .columns2 {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: .5fr .5fr;
 }
 
 .prices h2 {
