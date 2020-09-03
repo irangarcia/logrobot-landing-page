@@ -404,7 +404,7 @@ iframe {
 }
 
 .treseiscinco {
-	height: 365px;
+	height: 388px;
 }
 
 /* CONTATO */
@@ -629,7 +629,7 @@ footer {
 	form {margin: 0;}
 	.form-area{grid-template-columns: none;width: 85%; margin: 0 auto 4rem auto;}
 	.contact-form{width: 100%; margin-top: 0;}
-	.treseiscinco {height: 365px;}
+	.treseiscinco {height: 388px;}
 	footer {padding: 1%;}
 	.modal {width: 90%; padding: 2rem 0.8rem;}
 }
